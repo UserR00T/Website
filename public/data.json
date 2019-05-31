@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "name": "BP-Essentials",
+      "description": "BP-Essentials aims to bring a simplistic yet powerful command suite to the game 'Broke Protocol'.",
+      "github": "https://github.com/UserR00T/BP-Essentials/",
+      "website": "https://userr00t.github.io/BP-Essentials/"
+    },
+    {
+      "name": "BP-ConsoleMonitor",
+      "description": "BP-ConsoleMonitor is a logtail program that constantly reads the contents of output_log.txt from the game 'Broke Protocol' to the console window. Though this Can easily be ported to read other files.",
+      "github": "https://github.com/UserR00T/BP-ConsoleMonitor"
+    },
+    {
+      "name": "BP-ServerList",
+      "description": "BP-ServerList is a service that will fetch the latest server list and put it in a nice table. This is acomplished by createding a backend API that will handle all the hard work for you. Made using Vue, VueRouter, Axios, ElementUI, Highlight, and Lumen (backend).",
+      "website": "https://www.userr00t.com/bpservers/"
+    },
+    {
+      "name": "BP-Tools",
+      "description": "BP-Tools contains various features and tools that can help with things ranging from uploading a map to the workshop to an ID list. Made using Vue, VueRouter, and ElementUI.",
+      "website": "hhttps://userr00t.github.io/BP-Tools/"
+    },
+    {
+      "name": "NetChalker",
+      "description": "A chalker library for .NET.",
+      "github": "https://github.com/UserR00T/NetChalker"
+    },
+    {
+      "name": "UniversialUnityHooks",
+      "description": "UniversalUnityHooks aims to bring a adaptable modding API to any unity game. This is acomplished by hooking into methods found in the Assembly-CSharp.dll and modifying them while avoiding having to decompile and recompile. (Like RocketMod, but the basic version of it.)",
+      "github": "https://github.com/UserR00T/UniversalUnityHooks"
+    },
+    {
+      "name": "ShowMyRig",
+      "description": "A website for the dutch content creator 'TechTime'. People can submit their own setup on this website and 'Team Techtime' will rate it. Made using Nuxt, Vue, VueRouter, VueX, Axios, ElementUI, and backend using Lumen.",
+      "website": "https://www.showmyrig.nl/"
+    },
+    {
+      "name": "SlidingPanel",
+      "description": "Animate your panel's width and height.",
+      "github": "https://github.com/UserR00T/SlidingPanel"
+    },
+    {
+      "name": "TypeWriterEffect",
+      "description": "Adds a TypeWriter effect to Windows Forms Application.",
+      "github": "https://github.com/UserR00T/TypeWriterEffect"
+    },
+    {
+      "name": "Personal Website",
+      "description": "The website where I put my portfolio and more. Created using VueJs and VantaJs. No CSS framework was used.",
+      "github": "https://github.com/UserR00T/Website",
+      "website": "https://UserR00T.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "text": "CSharp (C#), PHP, Javascript, HTML, CSS, SQL"
+    },
+    {
+      "name": "Frameworks/Libraries",
+      "text": "(C#) Json.NET, MongoDB.Driver,\n (JS) JQuery, VanillaJS, Node.js, Vue/VueX/VueRouter/Nuxt, \n(PHP) Laravel/Lumen, \n(CSS) Element-UI, Bootstrap, Bootstrap-vue, Vuetify, Buefy"
+    },
+    {
+      "name": "Misc",
+      "text": "Visual Studio IDE 2015/2017/2019, Visual Studio Code, PHPStorm, DnSpy, Postman, HeidiSQL, MongoDB Compass, Laragon, GitHub, GitKraken, Unity, Git, OOP, SOLID"
+    }
+  ],
+  "whoami": "Hi, my name is UserR00T, also known as root. I am a software/backend developer for over 3 years now. My primary programming language is C#, and human language is Dutch. (Though as you can see, I can also speak English, but not as well) I also know a good bit of frontend, html/css/js, as you can see with this site. However, I don't like frontend as much as backend development. For backend I mostly use ASP.NET (C#), or Lumen/Laravel (PHP). I've also used node.js in the past to create a site's backend, which I would definitly try again if I had the time to do so. I have used MySQL for a very long time but recently I discovered NoSQL databases like MongoDB and I was instantly hooked. I've since never used MySQL again, though I can still use it if needed. I also created windows applications using C# and WPF/WinForms.",
+  "contacts": [
+    {
+      "name": "Github",
+      "href": "https://github.com/UserR00T"
+    },
+    {
+      "name": "Gitlab",
+      "href": "https://gitlab.com/UserR00T"
+    },
+    {
+      "name": "Steam",
+      "href": "https://steamcommunity.com/id/UserR00T/"
+    },
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com/UserR00T_"
+    },
+    {
+      "name": "contact@UserR00T.com",
+      "href": "mailto:contact@UserR00T.com"
+    },
+    {
+      "name": "UserR00T#5907"
+    }
+  ]
+}
