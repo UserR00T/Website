@@ -19,7 +19,8 @@
     {
       "name": "BP-Tools",
       "description": "BP-Tools contains various features and tools that can help with things ranging from uploading a map to the workshop to an ID list. Made using Vue, VueRouter, and ElementUI.",
-      "website": "hhttps://userr00t.github.io/BP-Tools/"
+      "github": "https://github.com/UserR00T/BP-Tools/",
+      "website": "https://userr00t.github.io/BP-Tools/"
     },
     {
       "name": "NetChalker",
