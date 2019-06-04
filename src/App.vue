@@ -128,8 +128,6 @@ ul {
   background: #b8c0c838;
 }
 body {
-  scrollbar-face-color: #737373;
-  scrollbar-track-color: #b8c0c838;
   overflow-x: hidden;
 }
 
