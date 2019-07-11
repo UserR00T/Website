@@ -31,7 +31,7 @@
     </Page>
 
 
-    <Page small title="console.log(JSON.Parse(data).skills);">
+    <Page small title="console.log(JSON.parse(data).skills);">
       <div v-for="(skill, index) in skills" :key="index"> 
         <Title sub >{{skill.name}}</Title>
         <MainText>{{skill.text}}</MainText>
