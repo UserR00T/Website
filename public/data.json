@@ -1,6 +1,11 @@
 {
   "projects": [
     {
+      "name": "Broke Protocol (BP)",
+      "description": "An Open-World Multiplayer City Life RPG. I'm the co-developer of BP, and NongBenz is lead-developer.",
+      "website": "https://brokeprotocol.com/"
+    },
+    {
       "name": "BP-Essentials",
       "description": "BP-Essentials aims to bring a simplistic yet powerful command suite to the game 'Broke Protocol'.",
       "github": "https://github.com/UserR00T/BP-Essentials/",
