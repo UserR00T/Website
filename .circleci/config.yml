@@ -27,5 +27,5 @@ jobs:
       - run: npm run build
       - add_ssh_keys:
           fingerprints:
-            - "31:65:c5:08:f8:79:41:32:9c:98:6f:bc:e9:8a:46:20"
-      - run: scp -r UserR00T/Website/dist/* root@UserR00T.com:/var/www/userr00t.com/html/
+            - "c0:17:f3:87:b1:e1:0a:8f:99:2b:f2:d5:d8:2a:dd:b8"
+      - run: scp -o "StrictHostKeyChecking no" -r UserR00T/Website/dist/* root@UserR00T.com:/var/www/userr00t.com/html/
