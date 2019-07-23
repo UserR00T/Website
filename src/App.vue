@@ -12,7 +12,7 @@
     </Page>
 
     <Page small title="$ cat /data.json | jq '.projects[] | &quot;\(.name)\t\(.description)&quot;'">
-      <MainText>These are all the publicly released projects by me. Feel free to check them out & contribute on github or their website (if existant)
+      <MainText>These are all the publicly released projects by me. Feel free to check them out &amp; contribute on github or their website (if existant)
 
         <table>
           <tr>
