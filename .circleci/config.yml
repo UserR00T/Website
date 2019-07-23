@@ -25,4 +25,7 @@ jobs:
 
       # run build
       - run: npm run build
+      - add_ssh_keys:
+          fingerprints:
+            - "c0:17:f3:87:b1:e1:0a:8f:99:2b:f2:d5:d8:2a:dd:b8"
       - run: scp -r UserR00T/Website/dist/* root@UserR00T.com:/var/www/userr00t.com/html/
