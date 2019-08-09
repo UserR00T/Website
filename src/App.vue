@@ -11,7 +11,7 @@
       <MainText>{{whoami}}</MainText>
     </Page>
 
-    <Page small title="$ cat /data.json | jq '.projects[] | &quot;\(.name)\t\(.description)&quot;'">
+    <Page small title="$ cat ./data.json | jq '.projects[] | &quot;\(.name)\t\(.description)&quot;'">
       <MainText>These are all the publicly released projects by me. Feel free to check them out & contribute on github or their website (if existant)
 
         <table>
@@ -31,7 +31,7 @@
     </Page>
 
 
-    <Page small title="nano skills.txt">
+    <Page small title="$ nano skills.txt">
       <div v-for="(skill, index) in skills" :key="index"> 
         <Title sub >{{skill.name}}</Title>
         <MainText>{{skill.text}}</MainText>
