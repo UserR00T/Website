@@ -32,7 +32,7 @@
     <Page xs title="$ curl https://api.github.com/users/UserR00T/repos?sort=updated&amp;type=all">
       <MainText>These are all my <i>public</i> repositories, fetched from the github API. May contain duplicates from the projects page. Sorted by last updated, descending order.
         <ul class="repositories">
-          <Repository v-for="(repo, index) in repositories" :key="index" :repo="repo" @click="goto(repo.html_url)"/>
+          <Repository v-for="(repo, index) in repositories" :key="index" :repo="repo" @repoClick="goto(repo.html_url)"/>
         </ul>
       </MainText>
     </Page>

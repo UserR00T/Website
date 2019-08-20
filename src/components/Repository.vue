@@ -1,5 +1,5 @@
 <template>
-  <li>
+  <li @click="$emit('repoClick')">
     <img v-if="repo.owner.avatar_url" :src="repo.owner.avatar_url + '&s=32'">
     <span><a :href="repo.owner.html_url"> {{repo.owner.login}}</a>/{{repo.name}}</span>
     <span class="language" v-show="repo.language">{{repo.language}}</span>
