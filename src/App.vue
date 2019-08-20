@@ -98,12 +98,7 @@ export default {
       this.skills = content.skills;
       this.contacts = content.contacts;
       this.repoUrl = content.repoUrl;
-      this.fetch(this.repoUrl, {
-        method: 'GET',
-        headers: {
-          Accept: 'application/vnd.github.mercy-preview+json'
-        }
-      }).then((repositories) => {
+      this.fetch(this.repoUrl).then((repositories) => {
          this.repositories = repositories;
       });
     });

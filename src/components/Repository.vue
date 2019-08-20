@@ -5,7 +5,7 @@
     <span class="language" v-show="repo.language">{{repo.language}}</span>
     <a class="license" :href="'https://choosealicense.com/licenses/' + repo.license.key + '/'" v-if="repo.license">{{repo.license.name}}</a>
     <span class="fork" v-show="repo.fork">Forked // </span>
-    <span class="info"><code>Stars</code><span> {{repo.stargazers_count}}</span> // <code>Forks</code><span> {{repo.forks}}</span> // <code>Watchers</code><span> {{repo.watchers_count}}</span> {{ repo.license || repo.fork ? '// ' : '' }}</span>
+    <span class="info"><code>Stars</code><span> {{repo.stargazers_count}}</span> // <code>Forks</code><span> {{repo.forks}}</span><!-- // <code>Watchers</code><span> {{repo.watchers_count}}</span>(currently invalid, waiting for v4 GraphQL API to be public for non-authenticated requests. subscribers_count seems to not exist.)--> {{ repo.license || repo.fork ? '// ' : '' }}</span>
     <p class="description">{{repo.description}}
       <span class="date"><code>Last updated:</code> {{formatDate(new Date(repo.pushed_at))}}</span>
     </p>
