@@ -1,0 +1,38 @@
+$colors: (
+  background: rgb(32, 18, 8),
+  href: #969696,
+  text-default: white,
+
+  footer-text: #807f7f,
+
+  table-header: rgba(59, 54, 50, 0.7),
+  table-border: rgba(59, 54, 50, 0.4),
+
+  divider: rgba(37, 37, 37, 0.4),
+
+  repository-bg: #332b25,
+  repository-bg-hover: #332b25ca,
+  repository-el-lang: #20120875,
+  repository-el-info-span: #ff2121,
+);
+
+$shadows: (
+  repository: 10px 10px 30px -10px rgba(0, 0, 0, 0.5)
+);
+
+$font-main: 'Avenir', Helvetica, Arial, sans-serif;
+$font-main-sub: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-title: 'Lato', sans-serif;
+
+$fonts: (
+  main: $font-main,
+  main-sub: $font-main-sub,
+  title: $font-title
+);
+
+$scrollbar: (
+  track: #b8c0c838,
+  thumb: #737373,
+  width: 0.5em,
+  height: 0.5em,
+)

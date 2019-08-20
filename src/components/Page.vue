@@ -2,7 +2,7 @@
   <div>
     <Divider v-show="divider"/>
     <div :class="{ 'full': !fitContent, 'fit-content': fitContent }">
-      <Title :sub="sub" :small="small" v-show="title">{{title}}</Title>
+      <Title :sub="sub" :small="small" :xs="xs" v-show="title">{{title}}</Title>
       <slot></slot>
     </div>
   </div>
@@ -27,6 +27,10 @@ export default {
         type: Boolean
       },
       sub: {
+        default: false,
+        type: Boolean
+      },
+      xs: {
         default: false,
         type: Boolean
       },

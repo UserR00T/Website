@@ -8,10 +8,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "@/scss/global.scss";
+
 .divider {
   height: 3px;
   width: 100%;
-  background-color: rgba(37, 37, 37, 0.4);
+  background-color: map-get($colors, divider);
 }
 </style>
