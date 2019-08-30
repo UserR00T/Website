@@ -27,7 +27,7 @@ jobs:
       - run: npm run build
       - add_ssh_keys:
           fingerprints:
-            - "c0:17:f3:87:b1:e1:0a:8f:99:2b:f2:d5:d8:2a:dd:b8"
+            - "SHA256:LhsEOPxQE8eadV8HuJBPnMfe++DXFe61cl6f7A/6pik"
       - deploy:
           name: Deploy to VPS
-          command: scp -o "StrictHostKeyChecking no" -r dist/* root@UserR00T.com:/var/www/userr00t.com/html/
+          command: scp -o "StrictHostKeyChecking no" -r dist/* www-deployment@UserR00T.com:/var/www/userr00t.com/html/
