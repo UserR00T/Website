@@ -43,6 +43,12 @@
       "website": "https://www.showmyrig.nl/"
     },
     {
+      "name": "Pastr",
+      "description": "An alternative to pastebin, hastebin, and gist.",
+      "github": "https://github.com/pastr-git/",
+      "website": "https://pastr.UserR00T.com"
+    },
+    {
       "name": "SlidingPanel",
       "description": "Animate your panel's width and height.",
       "github": "https://github.com/UserR00T/SlidingPanel"
