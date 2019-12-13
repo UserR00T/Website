@@ -8,8 +8,13 @@
     {
       "name": "BP-Essentials",
       "description": "BP-Essentials aims to bring a simplistic yet powerful command suite to the game 'Broke Protocol'.",
-      "github": "https://github.com/UserR00T/BP-Essentials/",
-      "website": "https://userr00t.github.io/BP-Essentials/"
+      "github": "https://github.com/BPEssentials/",
+      "website": "https://bpessentials.github.io/Docs/"
+    },
+    {
+      "name": "BP-CoreLib",
+      "description": "Contains a list of helpful features for Broke Protocol plugins. Required core libary by a few plugins.",
+      "github": "https://github.com/UserR00T/BP-CoreLib"
     },
     {
       "name": "BP-ConsoleMonitor",
