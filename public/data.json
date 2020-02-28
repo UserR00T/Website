@@ -1,10 +1,37 @@
 {
   "projects": [
     {
+      "name": "Personal Website",
+      "description": "The website where I put my portfolio and more. Created using VueJs and VantaJs. No CSS framework was used.",
+      "github": "https://github.com/UserR00T/Website",
+      "website": "https://UserR00T.com"
+    },
+    {
+      "name": "UniversialUnityHooks",
+      "description": "UniversalUnityHooks aims to bring a adaptable modding API to any unity game. This is acomplished by hooking into methods found in the Assembly-CSharp.dll and modifying them while avoiding having to decompile and recompile. (Like RocketMod, but the basic version of it.)",
+      "github": "https://github.com/UserR00T/UniversalUnityHooks"
+    },
+    {
       "name": "BP-Essentials",
       "description": "BP-Essentials aims to bring a simplistic yet powerful command suite to the game 'Broke Protocol'.",
       "github": "https://github.com/BPEssentials/",
       "website": "https://bpessentials.github.io/Docs/"
+    },
+    {
+      "name": "NetChalker",
+      "description": "A chalker library for .NET.",
+      "github": "https://github.com/UserR00T/NetChalker"
+    },
+    {
+      "name": "Pastr",
+      "description": "An alternative to pastebin, hastebin, and gist.",
+      "github": "https://github.com/pastr-git/",
+      "website": "https://pastr.UserR00T.com"
+    },
+    {
+      "name": "ShowMyRig",
+      "description": "A website for the dutch content creator 'TechTime'. People can submit their own setup on this website and 'Team Techtime' will rate it. Made using Nuxt, Vue, VueRouter, VueX, Axios, ElementUI, and backend using Lumen.",
+      "website": "https://www.showmyrig.nl/"
     },
     {
       "name": "BP-CoreLib",
@@ -28,27 +55,6 @@
       "website": "https://userr00t.github.io/BP-Tools/"
     },
     {
-      "name": "NetChalker",
-      "description": "A chalker library for .NET.",
-      "github": "https://github.com/UserR00T/NetChalker"
-    },
-    {
-      "name": "UniversialUnityHooks",
-      "description": "UniversalUnityHooks aims to bring a adaptable modding API to any unity game. This is acomplished by hooking into methods found in the Assembly-CSharp.dll and modifying them while avoiding having to decompile and recompile. (Like RocketMod, but the basic version of it.)",
-      "github": "https://github.com/UserR00T/UniversalUnityHooks"
-    },
-    {
-      "name": "ShowMyRig",
-      "description": "A website for the dutch content creator 'TechTime'. People can submit their own setup on this website and 'Team Techtime' will rate it. Made using Nuxt, Vue, VueRouter, VueX, Axios, ElementUI, and backend using Lumen.",
-      "website": "https://www.showmyrig.nl/"
-    },
-    {
-      "name": "Pastr",
-      "description": "An alternative to pastebin, hastebin, and gist.",
-      "github": "https://github.com/pastr-git/",
-      "website": "https://pastr.UserR00T.com"
-    },
-    {
       "name": "SlidingPanel",
       "description": "Animate your panel's width and height.",
       "github": "https://github.com/UserR00T/SlidingPanel"
@@ -57,12 +63,6 @@
       "name": "TypeWriterEffect",
       "description": "Adds a TypeWriter effect to Windows Forms Application.",
       "github": "https://github.com/UserR00T/TypeWriterEffect"
-    },
-    {
-      "name": "Personal Website",
-      "description": "The website where I put my portfolio and more. Created using VueJs and VantaJs. No CSS framework was used.",
-      "github": "https://github.com/UserR00T/Website",
-      "website": "https://UserR00T.com"
     }
   ],
   "skills": [
@@ -97,10 +97,6 @@
     {
       "name": "Twitter",
       "href": "https://twitter.com/UserR00T_"
-    },
-    {
-      "name": "Bountysource salt",
-      "href": "https://salt.bountysource.com/teams/userr00t"
     },
     {
       "name": "contact@UserR00T.com",
