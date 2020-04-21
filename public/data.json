@@ -57,10 +57,12 @@
     {
       "name": "BP-ServerList",
       "description": "BP-ServerList is a service that will fetch the latest server list and put it in a nice table. This is acomplished by createding a backend API that will handle all the hard work for you. Made using Vue, VueRouter, Axios, ElementUI, Highlight, and Lumen (backend).",
+      "extraContent": "(removed)"
     },
     {
       "name": "BP-ConsoleMonitor",
       "description": "BP-ConsoleMonitor is a logtail program that constantly reads the contents of output_log.txt from the game 'Broke Protocol' to the console window. Though this Can easily be ported to read other files.",
+      "extraContent": "(removed)"
     }
   ],
   "skills": [

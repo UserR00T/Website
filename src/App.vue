@@ -24,6 +24,7 @@
             :description="project.description"
             :website="project.website"
             :github="project.github"
+            :extraContent="project.extraContent"
           />
         </table>
       </MainText>
@@ -141,7 +142,7 @@ ul {
 * {
   color: map-get($colors, text-default);
 }
-a[href] {
+a[href], .text-url {
   text-decoration: none;
   color: map-get($colors, href);
 }

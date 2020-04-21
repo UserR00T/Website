@@ -2,7 +2,8 @@
   <tr v-show="name">
     <td>{{name}}</td>
     <td>{{description}}</td>
-    <td>
+    <td v-if="extraContent" class="text-url">{{extraContent}}</td>
+    <td v-else>
       <a :href="website" v-show="website">Website</a>
       <span v-show="website && github"> // </span>
       <a :href="github" v-show="github">Github</a>
@@ -27,6 +28,10 @@ export default {
         type: String
       },
       github: {
+        default: undefined,
+        type: String
+      },
+      extraContent: {
         default: undefined,
         type: String
       }
