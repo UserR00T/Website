@@ -34,27 +34,6 @@
       "website": "https://www.showmyrig.nl/"
     },
     {
-      "name": "BP-CoreLib",
-      "description": "Contains a list of helpful features for Broke Protocol plugins. Required core libary by a few plugins.",
-      "github": "https://github.com/UserR00T/BP-CoreLib"
-    },
-    {
-      "name": "BP-ConsoleMonitor",
-      "description": "BP-ConsoleMonitor is a logtail program that constantly reads the contents of output_log.txt from the game 'Broke Protocol' to the console window. Though this Can easily be ported to read other files.",
-      "github": "https://github.com/UserR00T/BP-ConsoleMonitor"
-    },
-    {
-      "name": "BP-ServerList",
-      "description": "BP-ServerList is a service that will fetch the latest server list and put it in a nice table. This is acomplished by createding a backend API that will handle all the hard work for you. Made using Vue, VueRouter, Axios, ElementUI, Highlight, and Lumen (backend).",
-      "website": "https://www.userr00t.com/bpservers/"
-    },
-    {
-      "name": "BP-Tools",
-      "description": "BP-Tools contains various features and tools that can help with things ranging from uploading a map to the workshop to an ID list. Made using Vue, VueRouter, and ElementUI.",
-      "github": "https://github.com/UserR00T/BP-Tools/",
-      "website": "https://userr00t.github.io/BP-Tools/"
-    },
-    {
       "name": "SlidingPanel",
       "description": "Animate your panel's width and height.",
       "github": "https://github.com/UserR00T/SlidingPanel"
@@ -63,6 +42,25 @@
       "name": "TypeWriterEffect",
       "description": "Adds a TypeWriter effect to Windows Forms Application.",
       "github": "https://github.com/UserR00T/TypeWriterEffect"
+    },
+    {
+      "name": "BP-CoreLib",
+      "description": "Contains a list of helpful features for Broke Protocol plugins. Required core libary by a few plugins.",
+      "github": "https://github.com/BPEssentials/BP-CoreLib"
+    },
+    {
+      "name": "BP-Tools",
+      "description": "BP-Tools contains various features and tools that can help with things ranging from uploading a map to the workshop to an ID list. Made using Vue, VueRouter, and ElementUI.",
+      "github": "https://github.com/UserR00T/BP-Tools/",
+      "website": "https://userr00t.github.io/BP-Tools/"
+    },
+    {
+      "name": "BP-ServerList",
+      "description": "BP-ServerList is a service that will fetch the latest server list and put it in a nice table. This is acomplished by createding a backend API that will handle all the hard work for you. Made using Vue, VueRouter, Axios, ElementUI, Highlight, and Lumen (backend).",
+    },
+    {
+      "name": "BP-ConsoleMonitor",
+      "description": "BP-ConsoleMonitor is a logtail program that constantly reads the contents of output_log.txt from the game 'Broke Protocol' to the console window. Though this Can easily be ported to read other files.",
     }
   ],
   "skills": [
