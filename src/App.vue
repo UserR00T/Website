@@ -56,7 +56,7 @@
     
     <Page :fitContent="true" class="footer">
       <div>
-        <p>Hand crafted with <span style="color: #ff000057;">&lt;3</span> by UserR00T. (c) 2019</p>
+        <p>Hand crafted with <span style="color: #ff000057;">&lt;3</span> by UserR00T.</p>
       </div>
     </Page>
   </div>
