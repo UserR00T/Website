@@ -46,7 +46,8 @@
     {
       "name": "Broke Protocol",
       "description": "An open world online city RPG. - Co-developer for a 6 month period between 2019 and 2020.",
-      "github": "https://brokeprotocol.com/"
+      "website": "https://brokeprotocol.com/",
+      "github": "https://github.com/broke-protocol/"
     },
     {
       "name": "BP-CoreLib",
